@@ -27,12 +27,13 @@ A curated collection of **100+ multimodal large language models**, organized by 
 - 📋 **Detailed model cards** — tokenizer, tasks, datasets, metrics, and more
 - 🔗 **Quick links** — one-click access to paper & code
 
+<!-- 
 ```bash
 cd Multimodal-Model-Zoo
 python3 -m http.server 8080
 ```
 
-Then visit [http://localhost:8080](http://localhost:8080).
+Then visit [http://localhost:8080](http://localhost:8080). -->
 
 ## 📝 Data Fields
 
