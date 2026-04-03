@@ -1,0 +1,930 @@
+{
+  "tree": {
+    "understanding": {
+      "single modal": {
+        "image": [
+          {
+            "task": "Image Classification",
+            "benchmarks": [
+              "ImageNet（ImageNet-1K",
+              "ImageNet-Real",
+              "ImageNet-V2",
+              "ImageNet-A",
+              "ImageNet-R",
+              "ImageNet-Sketch）",
+              "Places365"
+            ],
+            "benchmarks_raw": "ImageNet（ImageNet-1K, ImageNet-Real, ImageNet-V2, ImageNet-A, ImageNet-R, ImageNet-Sketch）, Places365"
+          },
+          {
+            "task": "Depth Estimation",
+            "benchmarks": [
+              "NYUv2"
+            ],
+            "benchmarks_raw": "NYUv2"
+          },
+          {
+            "task": "Edge Detection",
+            "benchmarks": [
+              "ImageNet"
+            ],
+            "benchmarks_raw": "ImageNet"
+          },
+          {
+            "task": "Surface Normal Estimation",
+            "benchmarks": [
+              "FrameNet and BlendedMVS"
+            ],
+            "benchmarks_raw": "FrameNet and BlendedMVS"
+          }
+        ],
+        "audio": [
+          {
+            "task": "Audio Captioning",
+            "benchmarks": [
+              "AudioCaps",
+              "ClothoV2",
+              "Clotho",
+              "MusicCaps",
+              "MACS",
+              "LJ Speech"
+            ],
+            "benchmarks_raw": "AudioCaps, ClothoV2,Clotho,MusicCaps,MACS,LJ Speech"
+          },
+          {
+            "task": "Sound Event Classification",
+            "benchmarks": [
+              "AudioSet",
+              "FSD50K"
+            ],
+            "benchmarks_raw": "AudioSet, FSD50K"
+          },
+          {
+            "task": "Acoustic Scene Classification",
+            "benchmarks": [
+              "CochlScene"
+            ],
+            "benchmarks_raw": "CochlScene"
+          },
+          {
+            "task": "Speech Emotion Recognition",
+            "benchmarks": [
+              "MSP Podcast",
+              "CMU MOSI",
+              "CMU MOSEI",
+              "MELD"
+            ],
+            "benchmarks_raw": "MSP Podcast, CMU MOSI, CMU MOSEI, MELD"
+          },
+          {
+            "task": "Speech Sentiment Recognition",
+            "benchmarks": [
+              "MSP Podcast",
+              "CMU MOSI",
+              "CMU MOSEI",
+              "MELD"
+            ],
+            "benchmarks_raw": "MSP Podcast, CMU MOSI, CMU MOSEI, MELD"
+          },
+          {
+            "task": "Music Analysis",
+            "benchmarks": [
+              "NSynth",
+              "FMA"
+            ],
+            "benchmarks_raw": "NSynth, FMA"
+          },
+          {
+            "task": "Vocal Sound Classification",
+            "benchmarks": [
+              "Vocal Sound"
+            ],
+            "benchmarks_raw": "Vocal Sound"
+          },
+          {
+            "task": "Action Recognition",
+            "benchmarks": [
+              "ESC50 Actions"
+            ],
+            "benchmarks_raw": "ESC50 Actions"
+          }
+        ],
+        "text": [
+          {
+            "task": "Natural Language Inference",
+            "benchmarks": [
+              "HellaSwag"
+            ],
+            "benchmarks_raw": "HellaSwag"
+          }
+        ],
+        "others": [
+          {
+            "task": "3D-to-Text Translation",
+            "benchmarks": [
+              "HumanML3D",
+              "KIT Motion-Language"
+            ],
+            "benchmarks_raw": "HumanML3D, KIT Motion-Language"
+          }
+        ]
+      },
+      "multimodal": {
+        "image+text": [
+          {
+            "task": "Visual Question Answering",
+            "benchmarks": [
+              "VQAv2",
+              "OKVQA",
+              "VizWiz",
+              "GQA",
+              "ScienceQA",
+              "TextVQA",
+              "ChartQA",
+              "DocVQA",
+              "InfoVQA",
+              "STVQA",
+              "OCRVQA",
+              "AI2D",
+              "VCR",
+              "RefCOCO",
+              "RefCOCO+",
+              "RefCOCOg",
+              "MSVD-QA",
+              "MSRVTT-QA",
+              "ActivityNet-QA"
+            ],
+            "benchmarks_raw": "VQAv2, OKVQA, VizWiz, GQA, ScienceQA, TextVQA, ChartQA, DocVQA, InfoVQA, STVQA, OCRVQA, AI2D, VCR, RefCOCO, RefCOCO+, RefCOCOg，MSVD-QA, MSRVTT-QA, ActivityNet-QA"
+          },
+          {
+            "task": "Referring Expression Comprehension",
+            "benchmarks": [
+              "RefCOCO",
+              "RefCOCO+",
+              "RefCOCOg"
+            ],
+            "benchmarks_raw": "RefCOCO, RefCOCO+, RefCOCOg"
+          },
+          {
+            "task": "Visual Grounding",
+            "benchmarks": [
+              "RefCOCO",
+              "RefCOCO+",
+              "RefCOCOg"
+            ],
+            "benchmarks_raw": "RefCOCO, RefCOCO+, RefCOCOg"
+          },
+          {
+            "task": "Multimodal Multiple-Choice Science Questions Answering",
+            "benchmarks": [
+              "ScienceQA"
+            ],
+            "benchmarks_raw": "ScienceQA"
+          },
+          {
+            "task": "Document and Diagram Reading",
+            "benchmarks": [
+              "DocVQA",
+              "InfoVQA",
+              "ChartQA",
+              "TextVQA",
+              "AI2D",
+              "OCRBench"
+            ],
+            "benchmarks_raw": "DocVQA, InfoVQA, ChartQA, TextVQA, AI2D, OCRBench"
+          },
+          {
+            "task": "Multimodal Reasoning and Mathematics",
+            "benchmarks": [
+              "MMMU",
+              "MMMU-Pro",
+              "MathVista",
+              "MATH-Vision",
+              "MathVerse",
+              "OlympiadBench"
+            ],
+            "benchmarks_raw": "MMMU、MMMU-Pro, MathVista, MATH-Vision, MathVerse, OlympiadBench"
+          },
+          {
+            "task": "Visual Commonsense Reasoning",
+            "benchmarks": [
+              "VisualCOMET",
+              "VCR"
+            ],
+            "benchmarks_raw": "VisualCOMET，VCR"
+          },
+          {
+            "task": "GUI Operation",
+            "benchmarks": [
+              "AITZ",
+              "ScreenSpot",
+              "ScreenSpot-V2"
+            ],
+            "benchmarks_raw": "AITZ，ScreenSpot, ScreenSpot-V2"
+          }
+        ],
+        "audio+text": [
+          {
+            "task": "Spoken Question Answering",
+            "benchmarks": [
+              "Llama Questions",
+              "Web Questions",
+              "Trivia QA"
+            ],
+            "benchmarks_raw": "Llama Questions, Web Questions, Trivia QA"
+          },
+          {
+            "task": "Audio Question Answering",
+            "benchmarks": [
+              "ClothoAQA"
+            ],
+            "benchmarks_raw": "ClothoAQA"
+          }
+        ],
+        "video+text": [
+          {
+            "task": "Video Understanding",
+            "benchmarks": [
+              "Perception Test",
+              "EgoSchema",
+              "MVBench",
+              "Video-MME",
+              "LongVideoBench"
+            ],
+            "benchmarks_raw": "Perception Test, EgoSchema, MVBench, Video-MME, LongVideoBench"
+          }
+        ],
+        "others": [
+          {
+            "task": "3D Related",
+            "benchmarks": [
+              "Objaverse",
+              "ShapeNet",
+              "Text2Shape",
+              "ScanQA",
+              "Scan2Cap",
+              "Scannet",
+              "Cap3d",
+              "Cap3descript",
+              "Nr3d",
+              "Sr3d",
+              "HumanML3D",
+              "KIT Motion-Language"
+            ],
+            "benchmarks_raw": "Objaverse, ShapeNet，Text2Shape，ScanQA，Scan2Cap，Scannet，Cap3d，Cap3descript, Nr3d, Sr3d、HumanML3D, KIT Motion-Language"
+          }
+        ]
+      }
+    },
+    "generation": {
+      "single modal": {
+        "image": [
+          {
+            "task": "Text-to-Image Generation",
+            "benchmarks": [
+              "MS-COCO",
+              "TIFA",
+              "GenEval",
+              "LN-COCO",
+              "Flickr30K",
+              "MSCOCO-30K",
+              "DPG-Bench",
+              "JourneyDB",
+              "LAION-Aesthetics",
+              "CUB",
+              "Caltech-UCSD Birds 200 dataset"
+            ],
+            "benchmarks_raw": "MS-COCO, TIFA, GenEval, LN-COCO, Flickr30K, MSCOCO-30K, DPG-Bench, JourneyDB, LAION-Aesthetics, CUB, Caltech-UCSD Birds 200 dataset"
+          },
+          {
+            "task": "Image Infilling",
+            "benchmarks": [
+              "OpenImages",
+              "YFCC100M",
+              "ImageNet-21K"
+            ],
+            "benchmarks_raw": "OpenImages, YFCC100M, ImageNet-21K"
+          },
+          {
+            "task": "Image Reconstruction",
+            "benchmarks": [
+              "ImageNet",
+              "LCS-558K"
+            ],
+            "benchmarks_raw": "ImageNet, LCS-558K"
+          },
+          {
+            "task": "Image Variation",
+            "benchmarks": [
+              "MS-COCO"
+            ],
+            "benchmarks_raw": "MS-COCO"
+          },
+          {
+            "task": "Audio-to-Image Generation",
+            "benchmarks": [
+              "AudioCaps"
+            ],
+            "benchmarks_raw": "AudioCaps"
+          },
+          {
+            "task": "Image Editing",
+            "benchmarks": [
+              "InstructPix2Pix",
+              "MagicBrush",
+              "Emu Edit"
+            ],
+            "benchmarks_raw": "InstructPix2Pix, MagicBrush, Emu Edit"
+          }
+        ],
+        "video": [
+          {
+            "task": "Text-to-Video Generation",
+            "benchmarks": [
+              "MSR-VTT",
+              "UCF-101"
+            ],
+            "benchmarks_raw": "MSR-VTT, UCF-101"
+          },
+          {
+            "task": "Video Frame Prediction",
+            "benchmarks": [
+              "Kinetics-700"
+            ],
+            "benchmarks_raw": "Kinetics-700"
+          }
+        ],
+        "audio": [
+          {
+            "task": "Text-to-Speech (TTS)",
+            "benchmarks": [
+              "SEED-TTS",
+              "LibriTTS",
+              "VCTK",
+              "Common Voice",
+              "GigaSpeech",
+              "MED-TTS"
+            ],
+            "benchmarks_raw": "SEED-TTS, LibriTTS, VCTK, Common Voice, GigaSpeech，MED-TTS"
+          },
+          {
+            "task": "Multimodal-to-Audio Generation（Text、Image、Video）",
+            "benchmarks": [
+              "AudioCaps"
+            ],
+            "benchmarks_raw": "AudioCaps"
+          }
+        ],
+        "text": [
+          {
+            "task": "Image-to-Text Generation",
+            "benchmarks": [
+              "MS-COCO",
+              "Flickr30k",
+              "Image Paragraph",
+              "Localized Narratives"
+            ],
+            "benchmarks_raw": "MS-COCO, Flickr30k, Image Paragraph, Localized Narratives"
+          },
+          {
+            "task": "Visual Storytelling",
+            "benchmarks": [
+              "VIST",
+              "PororoSV",
+              "FlintstonesSV"
+            ],
+            "benchmarks_raw": "VIST, PororoSV, FlintstonesSV"
+          },
+          {
+            "task": "3D-to-Text Generation",
+            "benchmarks": [
+              "HumanML3D",
+              "KIT Motion-Language"
+            ],
+            "benchmarks_raw": "HumanML3D, KIT Motion-Language"
+          }
+        ],
+        "others": [
+          {
+            "task": "Text-to-3D Generation",
+            "benchmarks": [
+              "HumanML3D",
+              "KIT Motion-Language",
+              "BABEL"
+            ],
+            "benchmarks_raw": "HumanML3D, KIT Motion-Language，BABEL"
+          }
+        ]
+      }
+    }
+  },
+  "flat": [
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Image Classification",
+      "benchmarks": [
+        "ImageNet（ImageNet-1K",
+        "ImageNet-Real",
+        "ImageNet-V2",
+        "ImageNet-A",
+        "ImageNet-R",
+        "ImageNet-Sketch）",
+        "Places365"
+      ],
+      "benchmarks_raw": "ImageNet（ImageNet-1K, ImageNet-Real, ImageNet-V2, ImageNet-A, ImageNet-R, ImageNet-Sketch）, Places365"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Depth Estimation",
+      "benchmarks": [
+        "NYUv2"
+      ],
+      "benchmarks_raw": "NYUv2"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Edge Detection",
+      "benchmarks": [
+        "ImageNet"
+      ],
+      "benchmarks_raw": "ImageNet"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Surface Normal Estimation",
+      "benchmarks": [
+        "FrameNet and BlendedMVS"
+      ],
+      "benchmarks_raw": "FrameNet and BlendedMVS"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Audio Captioning",
+      "benchmarks": [
+        "AudioCaps",
+        "ClothoV2",
+        "Clotho",
+        "MusicCaps",
+        "MACS",
+        "LJ Speech"
+      ],
+      "benchmarks_raw": "AudioCaps, ClothoV2,Clotho,MusicCaps,MACS,LJ Speech"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Sound Event Classification",
+      "benchmarks": [
+        "AudioSet",
+        "FSD50K"
+      ],
+      "benchmarks_raw": "AudioSet, FSD50K"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Acoustic Scene Classification",
+      "benchmarks": [
+        "CochlScene"
+      ],
+      "benchmarks_raw": "CochlScene"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Speech Emotion Recognition",
+      "benchmarks": [
+        "MSP Podcast",
+        "CMU MOSI",
+        "CMU MOSEI",
+        "MELD"
+      ],
+      "benchmarks_raw": "MSP Podcast, CMU MOSI, CMU MOSEI, MELD"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Speech Sentiment Recognition",
+      "benchmarks": [
+        "MSP Podcast",
+        "CMU MOSI",
+        "CMU MOSEI",
+        "MELD"
+      ],
+      "benchmarks_raw": "MSP Podcast, CMU MOSI, CMU MOSEI, MELD"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Music Analysis",
+      "benchmarks": [
+        "NSynth",
+        "FMA"
+      ],
+      "benchmarks_raw": "NSynth, FMA"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Vocal Sound Classification",
+      "benchmarks": [
+        "Vocal Sound"
+      ],
+      "benchmarks_raw": "Vocal Sound"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Action Recognition",
+      "benchmarks": [
+        "ESC50 Actions"
+      ],
+      "benchmarks_raw": "ESC50 Actions"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "text",
+      "level4": "Natural Language Inference",
+      "benchmarks": [
+        "HellaSwag"
+      ],
+      "benchmarks_raw": "HellaSwag"
+    },
+    {
+      "level1": "understanding",
+      "level2": "single modal",
+      "level3": "others",
+      "level4": "3D-to-Text Translation",
+      "benchmarks": [
+        "HumanML3D",
+        "KIT Motion-Language"
+      ],
+      "benchmarks_raw": "HumanML3D, KIT Motion-Language"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "image+text",
+      "level4": "Visual Question Answering",
+      "benchmarks": [
+        "VQAv2",
+        "OKVQA",
+        "VizWiz",
+        "GQA",
+        "ScienceQA",
+        "TextVQA",
+        "ChartQA",
+        "DocVQA",
+        "InfoVQA",
+        "STVQA",
+        "OCRVQA",
+        "AI2D",
+        "VCR",
+        "RefCOCO",
+        "RefCOCO+",
+        "RefCOCOg",
+        "MSVD-QA",
+        "MSRVTT-QA",
+        "ActivityNet-QA"
+      ],
+      "benchmarks_raw": "VQAv2, OKVQA, VizWiz, GQA, ScienceQA, TextVQA, ChartQA, DocVQA, InfoVQA, STVQA, OCRVQA, AI2D, VCR, RefCOCO, RefCOCO+, RefCOCOg，MSVD-QA, MSRVTT-QA, ActivityNet-QA"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "image+text",
+      "level4": "Referring Expression Comprehension",
+      "benchmarks": [
+        "RefCOCO",
+        "RefCOCO+",
+        "RefCOCOg"
+      ],
+      "benchmarks_raw": "RefCOCO, RefCOCO+, RefCOCOg"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "image+text",
+      "level4": "Visual Grounding",
+      "benchmarks": [
+        "RefCOCO",
+        "RefCOCO+",
+        "RefCOCOg"
+      ],
+      "benchmarks_raw": "RefCOCO, RefCOCO+, RefCOCOg"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "image+text",
+      "level4": "Multimodal Multiple-Choice Science Questions Answering",
+      "benchmarks": [
+        "ScienceQA"
+      ],
+      "benchmarks_raw": "ScienceQA"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "image+text",
+      "level4": "Document and Diagram Reading",
+      "benchmarks": [
+        "DocVQA",
+        "InfoVQA",
+        "ChartQA",
+        "TextVQA",
+        "AI2D",
+        "OCRBench"
+      ],
+      "benchmarks_raw": "DocVQA, InfoVQA, ChartQA, TextVQA, AI2D, OCRBench"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "image+text",
+      "level4": "Multimodal Reasoning and Mathematics",
+      "benchmarks": [
+        "MMMU",
+        "MMMU-Pro",
+        "MathVista",
+        "MATH-Vision",
+        "MathVerse",
+        "OlympiadBench"
+      ],
+      "benchmarks_raw": "MMMU、MMMU-Pro, MathVista, MATH-Vision, MathVerse, OlympiadBench"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "image+text",
+      "level4": "Visual Commonsense Reasoning",
+      "benchmarks": [
+        "VisualCOMET",
+        "VCR"
+      ],
+      "benchmarks_raw": "VisualCOMET，VCR"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "image+text",
+      "level4": "GUI Operation",
+      "benchmarks": [
+        "AITZ",
+        "ScreenSpot",
+        "ScreenSpot-V2"
+      ],
+      "benchmarks_raw": "AITZ，ScreenSpot, ScreenSpot-V2"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "audio+text",
+      "level4": "Spoken Question Answering",
+      "benchmarks": [
+        "Llama Questions",
+        "Web Questions",
+        "Trivia QA"
+      ],
+      "benchmarks_raw": "Llama Questions, Web Questions, Trivia QA"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "audio+text",
+      "level4": "Audio Question Answering",
+      "benchmarks": [
+        "ClothoAQA"
+      ],
+      "benchmarks_raw": "ClothoAQA"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "video+text",
+      "level4": "Video Understanding",
+      "benchmarks": [
+        "Perception Test",
+        "EgoSchema",
+        "MVBench",
+        "Video-MME",
+        "LongVideoBench"
+      ],
+      "benchmarks_raw": "Perception Test, EgoSchema, MVBench, Video-MME, LongVideoBench"
+    },
+    {
+      "level1": "understanding",
+      "level2": "multimodal",
+      "level3": "others",
+      "level4": "3D Related",
+      "benchmarks": [
+        "Objaverse",
+        "ShapeNet",
+        "Text2Shape",
+        "ScanQA",
+        "Scan2Cap",
+        "Scannet",
+        "Cap3d",
+        "Cap3descript",
+        "Nr3d",
+        "Sr3d",
+        "HumanML3D",
+        "KIT Motion-Language"
+      ],
+      "benchmarks_raw": "Objaverse, ShapeNet，Text2Shape，ScanQA，Scan2Cap，Scannet，Cap3d，Cap3descript, Nr3d, Sr3d、HumanML3D, KIT Motion-Language"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Text-to-Image Generation",
+      "benchmarks": [
+        "MS-COCO",
+        "TIFA",
+        "GenEval",
+        "LN-COCO",
+        "Flickr30K",
+        "MSCOCO-30K",
+        "DPG-Bench",
+        "JourneyDB",
+        "LAION-Aesthetics",
+        "CUB",
+        "Caltech-UCSD Birds 200 dataset"
+      ],
+      "benchmarks_raw": "MS-COCO, TIFA, GenEval, LN-COCO, Flickr30K, MSCOCO-30K, DPG-Bench, JourneyDB, LAION-Aesthetics, CUB, Caltech-UCSD Birds 200 dataset"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Image Infilling",
+      "benchmarks": [
+        "OpenImages",
+        "YFCC100M",
+        "ImageNet-21K"
+      ],
+      "benchmarks_raw": "OpenImages, YFCC100M, ImageNet-21K"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Image Reconstruction",
+      "benchmarks": [
+        "ImageNet",
+        "LCS-558K"
+      ],
+      "benchmarks_raw": "ImageNet, LCS-558K"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Image Variation",
+      "benchmarks": [
+        "MS-COCO"
+      ],
+      "benchmarks_raw": "MS-COCO"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Audio-to-Image Generation",
+      "benchmarks": [
+        "AudioCaps"
+      ],
+      "benchmarks_raw": "AudioCaps"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "image",
+      "level4": "Image Editing",
+      "benchmarks": [
+        "InstructPix2Pix",
+        "MagicBrush",
+        "Emu Edit"
+      ],
+      "benchmarks_raw": "InstructPix2Pix, MagicBrush, Emu Edit"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "video",
+      "level4": "Text-to-Video Generation",
+      "benchmarks": [
+        "MSR-VTT",
+        "UCF-101"
+      ],
+      "benchmarks_raw": "MSR-VTT, UCF-101"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "video",
+      "level4": "Video Frame Prediction",
+      "benchmarks": [
+        "Kinetics-700"
+      ],
+      "benchmarks_raw": "Kinetics-700"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Text-to-Speech (TTS)",
+      "benchmarks": [
+        "SEED-TTS",
+        "LibriTTS",
+        "VCTK",
+        "Common Voice",
+        "GigaSpeech",
+        "MED-TTS"
+      ],
+      "benchmarks_raw": "SEED-TTS, LibriTTS, VCTK, Common Voice, GigaSpeech，MED-TTS"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "audio",
+      "level4": "Multimodal-to-Audio Generation（Text、Image、Video）",
+      "benchmarks": [
+        "AudioCaps"
+      ],
+      "benchmarks_raw": "AudioCaps"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "text",
+      "level4": "Image-to-Text Generation",
+      "benchmarks": [
+        "MS-COCO",
+        "Flickr30k",
+        "Image Paragraph",
+        "Localized Narratives"
+      ],
+      "benchmarks_raw": "MS-COCO, Flickr30k, Image Paragraph, Localized Narratives"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "text",
+      "level4": "Visual Storytelling",
+      "benchmarks": [
+        "VIST",
+        "PororoSV",
+        "FlintstonesSV"
+      ],
+      "benchmarks_raw": "VIST, PororoSV, FlintstonesSV"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "text",
+      "level4": "3D-to-Text Generation",
+      "benchmarks": [
+        "HumanML3D",
+        "KIT Motion-Language"
+      ],
+      "benchmarks_raw": "HumanML3D, KIT Motion-Language"
+    },
+    {
+      "level1": "generation",
+      "level2": "single modal",
+      "level3": "others",
+      "level4": "Text-to-3D Generation",
+      "benchmarks": [
+        "HumanML3D",
+        "KIT Motion-Language",
+        "BABEL"
+      ],
+      "benchmarks_raw": "HumanML3D, KIT Motion-Language，BABEL"
+    }
+  ],
+  "stats": {
+    "total_tasks": 40,
+    "total_benchmarks": 141,
+    "understanding_tasks": 26,
+    "generation_tasks": 14
+  }
+}

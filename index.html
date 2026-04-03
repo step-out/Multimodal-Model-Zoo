@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multimodal Model Zoo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="benchmarks.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🧠</span>
+        <h1>Multimodal Model Repository</h1>
+      </div>
+      <p class="subtitle">A curated collection of multimodal large language models — Auto-Regressive, Diffusion, and Hybrid approaches</p>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link active">Models</a>
+        <a href="benchmarks.html" class="nav-link">Benchmarks</a>
+      </nav>
+      <a href="https://github.com/step-out/Multimodal-Model-Zoo" target="_blank" rel="noopener" class="star-banner">
+        ⭐ If you find this useful, star us on GitHub!
+      </a>
+    </div>
+  </header>
+
+  <!-- Stats Bar -->
+  <section class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-card" data-category="all">
+        <span class="stat-number" id="stat-total">0</span>
+        <span class="stat-label">Total Models</span>
+      </div>
+      <div class="stat-card" data-category="Auto-Regressive">
+        <span class="stat-number" id="stat-ar">0</span>
+        <span class="stat-label">Auto-Regressive</span>
+      </div>
+      <div class="stat-card" data-category="Diffusion">
+        <span class="stat-number" id="stat-diff">0</span>
+        <span class="stat-label">Diffusion</span>
+      </div>
+      <div class="stat-card" data-category="AR & Diffusion">
+        <span class="stat-number" id="stat-hybrid">0</span>
+        <span class="stat-label">AR & Diffusion</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Controls -->
+  <section class="controls">
+    <div class="controls-inner">
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search models by name, backbone, task, area..." />
+        <button class="clear-btn" id="clearSearch" title="Clear search">&times;</button>
+      </div>
+      <div class="filter-group">
+        <div class="filter-tabs" id="categoryTabs">
+          <button class="tab active" data-category="all">All</button>
+          <button class="tab" data-category="Auto-Regressive">
+            <span class="tab-dot ar"></span>Auto-Regressive
+          </button>
+          <button class="tab" data-category="Diffusion">
+            <span class="tab-dot diff"></span>Diffusion
+          </button>
+          <button class="tab" data-category="AR & Diffusion">
+            <span class="tab-dot hybrid"></span>AR & Diffusion
+          </button>
+        </div>
+        <div class="sort-group">
+          <label for="sortSelect">Sort by:</label>
+          <select id="sortSelect">
+            <option value="time-desc">Newest First</option>
+            <option value="time-asc">Oldest First</option>
+            <option value="name-asc">Name A→Z</option>
+            <option value="name-desc">Name Z→A</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline view -->
+  <section class="content">
+    <div class="content-inner">
+      <div class="results-info">
+        <span id="resultsCount">Loading...</span>
+      </div>
+      <div class="model-grid" id="modelGrid">
+        <!-- Cards will be injected here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Model Detail Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modalContent">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Detail content injected here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Multimodal Model Repository · Compiled for research reference</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

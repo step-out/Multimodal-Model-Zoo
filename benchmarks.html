@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benchmarks · Multimodal Model Zoo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="benchmarks.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">📊</span>
+        <h1>Multimodal Benchmarks</h1>
+      </div>
+      <p class="subtitle">A hierarchical taxonomy of benchmarks for multimodal model evaluation</p>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">← Models</a>
+        <a href="benchmarks.html" class="nav-link active">Benchmarks</a>
+      </nav>
+      <a href="https://github.com/step-out/Multimodal-Model-Zoo" target="_blank" rel="noopener" class="star-banner">
+        ⭐ If you find this useful, star us on GitHub!
+      </a>
+    </div>
+  </header>
+
+  <!-- Stats -->
+  <section class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-card">
+        <span class="stat-number" id="stat-tasks">0</span>
+        <span class="stat-label">Task Categories</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-benchmarks">0</span>
+        <span class="stat-label">Benchmarks</span>
+      </div>
+      <div class="stat-card bm-understand" data-filter="understanding">
+        <span class="stat-number" id="stat-understand">0</span>
+        <span class="stat-label">Understanding</span>
+      </div>
+      <div class="stat-card bm-generate" data-filter="generation">
+        <span class="stat-number" id="stat-generate">0</span>
+        <span class="stat-label">Generation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Controls -->
+  <section class="controls">
+    <div class="controls-inner">
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="text" id="bmSearch" placeholder="Search benchmarks, tasks, modalities..." />
+        <button class="clear-btn" id="bmClear" title="Clear">&times;</button>
+      </div>
+      <div class="filter-group">
+        <div class="filter-tabs" id="bmTabs">
+          <button class="tab active" data-filter="all">All</button>
+          <button class="tab" data-filter="understanding">
+            <span class="tab-dot bm-u"></span>Understanding
+          </button>
+          <button class="tab" data-filter="generation">
+            <span class="tab-dot bm-g"></span>Generation
+          </button>
+        </div>
+        <div class="view-toggle">
+          <button class="view-btn active" data-view="tree" title="Tree View">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg>
+            Tree
+          </button>
+          <button class="view-btn" data-view="table" title="Table View">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M3 3h18v18H3zM3 9h18M3 15h18M9 3v18"/></svg>
+            Table
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="content">
+    <div class="content-inner">
+      <div id="treeView" class="bm-tree-view"></div>
+      <div id="tableView" class="bm-table-view" style="display:none"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Multimodal Model Zoo · Compiled for research reference</p>
+  </footer>
+
+  <script src="benchmarks-app.js?v=2"></script>
+</body>
+</html>

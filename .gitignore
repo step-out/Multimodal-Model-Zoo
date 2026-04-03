@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Logs
+*.log
+
+# Claude Code internal files
+.claude/
+
+# Working batch files (intermediate processing artifacts)
+data/
