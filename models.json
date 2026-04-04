@@ -1,5 +1,24 @@
 [
   {
+    "name": "Gemma 4",
+    "category": "Auto-Regressive",
+    "io": "I, T, V, A → T",
+    "tokenizer": "SentencePiece (shared with Gemini); native multimodal tokens for image/video/audio",
+    "backbone": "Transformer (dense and MoE variants); E2B/E4B optimized for edge/mobile; 31B dense; 26B MoE (4B active)",
+    "parameter": "E2B (2B), E4B (4B), 31B (dense), 26B A4B (MoE, 4B active per token)",
+    "task": "Multimodal Understanding (VQA, image/video/audio QA), Reasoning, Long-context Understanding, Coding, Instruction Following, Agentic Workflows, Function Calling",
+    "dataset": "Benchmarks: MMMU, MathVista, DocVQA, VideoMME, MMAU; reasoning benchmarks; coding evaluations",
+    "metric": "Accuracy on reasoning, VQA, coding, and multimodal understanding benchmarks",
+    "time": "2026-04",
+    "code": "https://huggingface.co/collections/google/gemma-4-release",
+    "paper": "https://ai.google.dev/gemma/docs/core",
+    "ps": "Blog: https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/ — Available on Kaggle and Hugging Face. Thinking mode (configurable). Context window: 128K (small models), 256K (31B / 26B MoE).",
+    "conference": "Google 2026",
+    "area": "Multimodal",
+    "highlight": "Gemma 4 is Google's most capable open model family, offering four sizes (E2B, E4B, 31B, 26B MoE) across three architectures targeting mobile/edge to server deployment. All variants natively support image, video, and audio input with a 128K–256K context window and built-in reasoning (thinking) mode.",
+    "citation": ""
+  },
+  {
     "name": "Ming-Omni",
     "category": "AR & Diffusion",
     "io": "I, T, A, V → I, T, A",
