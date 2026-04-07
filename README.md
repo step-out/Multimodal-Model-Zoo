@@ -2,7 +2,9 @@
 
 A curated collection of **100+ multimodal large language models**, organized by generation paradigm — with standardized fields covering architecture, tasks, datasets, metrics, and more.
 
-🌐 **Live demo: [step-out.github.io/Multimodal-Model-Zoo](https://step-out.github.io/Multimodal-Model-Zoo)**
+<p align="center">
+  🌐 <strong>Live demo: <a href="https://step-out.github.io/Multimodal-Model-Zoo">step-out.github.io/Multimodal-Model-Zoo</a></strong>
+</p>
 
 <p align="center">
   <a href="https://step-out.github.io/Multimodal-Model-Zoo">Auto-Regressive</a> •
