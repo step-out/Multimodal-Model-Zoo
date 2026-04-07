@@ -2,11 +2,13 @@
 
 A curated collection of **100+ multimodal large language models**, organized by generation paradigm — with standardized fields covering architecture, tasks, datasets, metrics, and more.
 
+🌐 **Live demo: [step-out.github.io/Multimodal-Model-Zoo](https://step-out.github.io/Multimodal-Model-Zoo)**
+
 <p align="center">
-  <a href="#auto-regressive">Auto-Regressive</a> •
-  <a href="#diffusion">Diffusion</a> •
-  <a href="#ar--diffusion">AR & Diffusion</a> •
-  <a href="#quick-start">Quick Start</a>
+  <a href="https://step-out.github.io/Multimodal-Model-Zoo">Auto-Regressive</a> •
+  <a href="https://step-out.github.io/Multimodal-Model-Zoo">Diffusion</a> •
+  <a href="https://step-out.github.io/Multimodal-Model-Zoo">AR & Diffusion</a> •
+  <a href="https://step-out.github.io/Multimodal-Model-Zoo/benchmarks.html">Benchmarks</a>
 </p>
 
 ---
@@ -23,7 +25,7 @@ A curated collection of **100+ multimodal large language models**, organized by 
 
 - 🔍 **Full-text search** — search by model name, backbone, tasks, area, etc.
 - 🏷️ **Category filtering** — Auto-Regressive / Diffusion / Hybrid
-- 📅 **Multi-sort** — by date, name, or citation count
+- 📅 **Multi-sort** — by date or name
 - 📋 **Detailed model cards** — tokenizer, tasks, datasets, metrics, and more
 - 🔗 **Quick links** — one-click access to paper & code
 
@@ -55,7 +57,6 @@ Each model entry includes:
 | Conference/Journal | Venue |
 | Area | Research area |
 | Highlight | Key contribution |
-| Citation | Citation count |
 
 ## 🤝 Contributing
 
